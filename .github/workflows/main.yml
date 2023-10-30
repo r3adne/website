@@ -13,8 +13,8 @@ jobs:
       with:
         server: 144.217.70.157
         username: towb.esko3x
-        password: ${{ secrets.ftp_password }}
-	exclude: |
-          **/.git*
-          **/.git*/**
-          
+        password: ${{ secrets.FTP_PASSWORD }}
+        exclude: |
+                **/.git*
+                **/.git*/**
+                
